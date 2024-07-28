@@ -12,9 +12,9 @@ def main():
     try:
         # Connect to MySQL server
         cnx = mysql.connector.connect(
-            user='your_username',
-            password='your_password',
-            host='your_host'
+            user='root',
+            password='mysqloli3532',
+            host='localhost'
         )
         cursor = cnx.cursor()
         
